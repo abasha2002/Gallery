@@ -1,0 +1,487 @@
+@font-face {
+    font-family: 'Cinzel';
+    src: url(../fonts/Cinzel-Regular.ttf);
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #F5EFEF;
+    padding: 20px 100px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: #F5EFEF;
+    padding: 40px 100px 100px 100px;
+}
+
+.navigation ul{
+    gap: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.navigation a{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F3232;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+.logo img{
+    margin-left: 8px;
+}
+.logo a{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #3F3232;
+}
+footer p{
+    margin-top: 13px;
+}
+.social_media{
+    display: flex;
+    gap: 27px;
+    margin-top: 46px;
+}
+footer p{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.contacts{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 36px;
+}
+.contacts a{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #75464A;
+}
+.location{
+    display: flex;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    margin-right: 19px;
+}
+
+.main_section{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.main_title p{
+    margin-left: 19px;
+    margin-top: 162px;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.containers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 92px;
+}
+.container{
+    width: 343px;
+    background: #F7F5F5;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 10px;
+    padding: 21px 22px 42px 21px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+}
+.price p{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #121111;
+}
+.price span{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.buy{
+    margin-top: 32px;
+    text-align: right;
+}
+.buy button{
+    padding: 11px 20px;
+    width: 159px;
+    background: #3F3232;
+    border-radius: 10px;
+    cursor: pointer;
+
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.more{
+    text-align: right;
+    margin-bottom: 183px;
+}
+.more button{
+    width: 237px;
+    background: #3F3232;
+    border-radius: 10px;
+    padding: 18px 54px 25px 53px;
+    margin-right: 24px;
+    cursor: pointer;
+
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.gallery_section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 500px;
+}
+.gallery_product{
+    width: 1210px;
+    margin-top: 50px;
+}
+.gallery_flowers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 112px;
+}
+.gallery_flowers img{
+    width: 300px;
+    height: 350px;
+}
+.gallery_flowers img:hover{
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+.gallery_title h2{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.about_section{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.about_title{
+    margin-top: 162px;
+    margin-left: 19px;
+}
+.about_title h2{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.about_body{
+    display: flex;
+    flex-direction: column;
+    gap: 248px;
+    margin-bottom: 410px;
+}
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 116px;
+}
+.plants{
+    width: 384px;
+    margin-right: 36px;
+}
+.information p{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+}
+.text2{
+    margin-right: 11px;
+    margin-left: 34px;
+}
+.shop{
+    margin-left: 34px;
+}
+
+.contact_section{
+    padding-left: 71px;
+    padding-right: 132px;
+}
+
+.contact_title{
+    margin-top: 162px;
+    margin-left: 40px;
+}
+.contact_title h2{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.contact_subtitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.schedule{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.schedule div{
+    text-align: right;
+}
+.contact_subtitle h3{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contact_subtitle p{
+    margin-top: 30px;
+    text-align: right;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inputs label{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3D3D3D;
+}
+.fullname{
+    display: flex;
+    justify-content: space-between;
+}
+.fullname label{
+    display: block;
+    margin-top: 97px;
+    margin-bottom: 14px;
+
+}
+.fullname input{
+    width: 525px;
+    padding: 15px 20px;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.email{
+    display: flex;
+    justify-content: space-between;
+}
+.email label{
+    display: block;
+    margin-top: 65px;
+    margin-bottom: 14px;
+
+}
+.email span{
+    color:#FF0000;
+}
+.email input{
+    width: 525px;
+    padding: 15px 20px;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.map1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 86px;
+}
+.map1 label{
+    display: block;
+    margin-top: 65px;
+    margin-bottom: 14px;
+}
+.map1 textarea{
+    width: 588px;
+    height: 400px;
+    padding: 38px 32px;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 10px;
+    font-size: 16px;
+    resize: none;
+}
+
+.description label{
+    margin-top: 90px;
+    margin-bottom: 21px;
+    margin-left: 19px;
+}
+
+.accept{
+    margin-top: 38px;
+}
+.accept label{
+    display: inline;
+} 
+.span1{
+    color: #0057FF;
+}
+.span2{
+    color:#FF0000;
+}
+.map{
+    margin-top: 130px;
+}
+.map iframe{
+    height: 395px;
+}
+
+.contact_button{
+    display: flex;
+    justify-content: flex-end;
+}
+.contact_button button{
+    width: 224px;
+    padding: 21px 60px 23px 61px;
+    background: #3F3232;
+    border-radius: 10px;
+    margin-bottom: 322px;
+
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.questions_section{
+    padding-top: 171px;
+    padding-left: 227px;
+}
+
+.section_title{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #D9D9D9;
+}
+
+.questions h3{
+    padding-left: 10px;
+    padding-bottom: 21px;
+    margin-top: 71px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #121111;
+    border-bottom: 1px solid #75464A;
+    width: 700px;
+}
+
+.questions p{
+    width: 988px;
+    margin-top: 43px;
+    margin-bottom: 144px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
